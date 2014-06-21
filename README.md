@@ -1,8 +1,8 @@
 This repro contains the following two files:
  * readme -- this read me file
  * run_analysis.R -- The R script file that contains the code to process data originated from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and created a tidy data that contains averge measurements by subject and activity, the measurements covers only measurements that contains "mean" or "std" in original data set
- * tidy data set -- the data created from run_analysis.R which contains mean for all columns group by activity and subject
- * Code book -- 
+ * tidy data set(mean-by-subject-activity) -- the data created from run_analysis.R which contains mean for all columns group by activity and subject
+ * Code book -- explanation of the data involved in the data processing 
 
 ### The raw data
 The raw data comes from here:
@@ -23,4 +23,4 @@ The raw data comes from here:
   * the output data contains the data created from run_analysis.R which contains mean for all columns group by activity and subject
 
 
-### The code book
+
